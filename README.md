@@ -106,7 +106,7 @@ API Explorer allows you to select any of the exposed methods, and then see corre
 
 9. Configure the Model (a good example shown)
 
-```
+````
 {
   "User": {
     "dataSource": "datasource-name"
@@ -140,17 +140,15 @@ API Explorer allows you to select any of the exposed methods, and then see corre
     "public": true
   }
 }
-```
+````
 
 Open `server/model-config.json` and change the datasource for all entities we want to persist in the DB to "(datasource-name)".
 
 10.  Search Google for LoopBack and become a sponge for informaton about using the product, for about an hour.  It may not take you that long or it may take you longer.  Just go learn more.  You need to know your stuff.
 
-##Note for Newbies
+##Don't Be Dumb
 
-Please, remember, the configurations above do not contain literal names, usernames, passwords, etc.
+The configurations above do not contain literal names, usernames, passwords, etc.  If it's in parenthesis, that means you need to supply that information.   Don't actually use the parenthesis, and don't call your datasource datasource-name.  Just being sure.
 
-If it's in parenthesis, that means you need to supply that information.   Don't actually use the parenthesis, and don't call your datasource datasource-name.
-
-Just being sure.  You don't know how many times I get that.
+You don't know how many times I get that. I've gotten calls over "click the return key" and people thinking there was some other mouse that they didn't own with a button called Return Key.
 `
