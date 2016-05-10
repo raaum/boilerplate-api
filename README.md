@@ -20,7 +20,7 @@ Most importantly, you need to have Node installed on your machine, or whatever m
 
 https://nodejs.org/en/
 
-You'll also need git, which I'm assuming you have if you use GitHub, but maybe you don't, and you just like reading README files for fun, and what not, so here's a URL for that:
+You'll also need git, which I'm assuming you have if you use GitHub, but maybe you don't, and you just like reading README files for fun and what not, so here's a URL for that:
 
 https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
