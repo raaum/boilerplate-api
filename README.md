@@ -1,4 +1,4 @@
-#SBoilerplate API
+#Boilerplate API
 
 Setup a boilerplate server-side API using Node, JavaScript, LoopBack (from the developers of Express and major contributor to the open source Node project), and a few other goodies.
 
