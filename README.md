@@ -94,19 +94,12 @@ API Explorer allows you to select any of the exposed methods, and then see corre
     `$ node .`
 
 - In your browser, go to: `http://localhost:3000/explorer/`
-
 - You'll see an administrative page for the StrongLoop API Explorer, which is intuitive enought for novices to figure out.
-
-- Select any of the exposed methods, and the corresponding model schema will be displayed in the bottom right corner.
-
+- Select any of the exposed methods, and the corresponding model schema will be displayed in the bottom right corner.
 - In the data text area, it is possible to write a custom HTTP request.
-
 - Once the request is filled in, click the “Try it out” button
-
 - See the server’s response displayed in the box below
-
 - Edit your files within the skeleton of the application.
-
 - Configure the Model (a good example shown)
 
 ````
