@@ -28,10 +28,12 @@ Let’s get started!
 
 ##Boilerplate API Installation Process
 
-`$ git init`
-`$ npm install --save strongloop`
-`$ slc loopback`
-`$ slc loopback:status`
+````
+$ git init
+$ npm install --save strongloop
+$ slc loopback
+$ slc loopback:status
+````
 
 ..or something like that.  You'll be fine.
 
@@ -56,13 +58,13 @@ Let’s get started!
 	`$ slc loopback:datasource`
 
 	Which will ask you to ...
-	1. Enter the data-source name: <datasource-name>
-	2. Select the connector for <datasource-name>: MongoDB (supported by StrongLoop)
+	- Enter the data-source name: <datasource-name>
+	- Select the connector for <datasource-name>: MongoDB (supported by StrongLoop)
 
 3. Configure your DataSource
 
 	Here is a good default database setup configuration.  Enter your personal information where it asks for it.
-
+````
 	  "(your-datasource-name)": {
 	    "name": "(your-datasource-name)",
 	    "connector": "mongodb",
@@ -72,6 +74,7 @@ Let’s get started!
 	    "username": "(your-username)",
 	    "password": "(your-password)"
 	  }
+````
 
 ##Test the REST
 ####with LoopBack API Explorer
