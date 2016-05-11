@@ -81,20 +81,13 @@ $ slc loopback:status
 ##Test the REST
 ####with LoopBack API Explorer
 
-It’s time to see what we’ve built so far! We’ll use the awesome built-in tool, LoopBack API Explorer, which can be used as a client for the service we just created. Let’s try testing REST API calls.
+LoopBack has an awesome built-in client tool called LoopBack API Explorer, which can be used as a client for testing REST API calls.
 
 API Explorer allows you to select any of the exposed methods, and then see corresponding model schema in the bottom right corner. In the data text area, it is possible to write a custom HTTP request. Once the request is filled in, click the “Try it out” button, and the server’s response will be displayed below.
 
 ##Detailed Test Instructions:
-
-- In a separate window, start MongoDB with:
-
-    `$ mongod`
-
-- Run the application with:
-
-    `$ node .`
-
+- In a separate window, start MongoDB with:`$ mongod`
+- Run the application with: `$ node .`
 - In your browser, go to: `http://localhost:3000/explorer/`
 - You'll see an administrative page for the StrongLoop API Explorer, which is intuitive enought for novices to figure out.
 - Select any of the exposed methods, and the corresponding model schema will be displayed in the bottom right corner.
@@ -144,7 +137,7 @@ Open `server/model-config.json` and change the datasource for all entities we wa
 
 Search Google for LoopBack and become a sponge for informaton about using the product, for about an hour.  It may not take you that long or it may take you longer.  Just go learn more.  You need to know your stuff.
 
-##Don't Be Dumb
+##Be logical but not literal with the above
 
 The configurations above do not contain literal names, usernames, passwords, etc.  If it's in parenthesis, that means you need to supply that information.   Don't actually use the parenthesis, and don't call your datasource datasource-name.  Just being sure.
 
