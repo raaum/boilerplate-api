@@ -8,7 +8,7 @@ You'll have both a server and a client operating on the same machine, in most ca
 
 Boilerplate API uses LoopBack, an open source API framework built by San Mateo, California based company StrongLoop.  StrongLoop has been a very important contributor to the latest Node version and the Node community as a whole for quite some time.  StrongLoop are the current maintainers of the world's most popular and widely used Node framework for server-side development, Express.  Most developers use Express to serve pages, in lieu of Apache for example.
 
-##What is LoopBack?
+##LoopBack Makes This Painless
 
 LoopBack makes it easy to connect to your backend data sources. It is built on top of Express, which means it's been tested, it works, it scales, it's intuitive (for us anyways).
 
