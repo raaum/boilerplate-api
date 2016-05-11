@@ -83,13 +83,13 @@ $ slc loopback:status
 
 LoopBack has an awesome built-in client tool called LoopBack API Explorer, which can be used as a client for testing REST API calls.
 
-API Explorer allows you to select any of the exposed methods, and then see corresponding model schema in the bottom right corner. In the data text area, it is possible to write a custom HTTP request. Once the request is filled in, click the “Try it out” button, and the server’s response will be displayed below.
+API Explorer allows you to select any of the exposed methods, and then see corresponding model schema in the bottom right corner. In the data text area, it is possible to write a custom HTTP request. Once the request is filled in, click the “Try it out” button, and the server’s response will be displayed.
 
 ##Detailed Test Instructions:
 - In a separate window, start MongoDB with:`$ mongod`
 - Run the application with: `$ node .`
 - In your browser, go to: `http://localhost:3000/explorer/`
-- You'll see an administrative page for the StrongLoop API Explorer, which is intuitive enought for novices to figure out.
+- You'll see an administrative page for the StrongLoop API Explorer, which is intuitive enough for novices to figure out.
 - Select any of the exposed methods, and the corresponding model schema will be displayed in the bottom right corner.
 - In the data text area, it is possible to write a custom HTTP request.
 - Once the request is filled in, click the “Try it out” button
@@ -135,11 +135,11 @@ API Explorer allows you to select any of the exposed methods, and then see corre
 
 Open `server/model-config.json` and change the datasource for all entities we want to persist in the DB to "(datasource-name)".
 
-Search Google for LoopBack and become a sponge for informaton about using the product, for about an hour.  It may not take you that long or it may take you longer.  Just go learn more.  You need to know your stuff.
+Search Google for LoopBack and become a sponge for informaton about using the product, for about an hour.  It may not take you that long or it may take you longer.  You will now when you are comfortable.
 
-##Be logical but not literal with the above
+##Be logical but not literal with the above.
 
-The configurations above do not contain literal names, usernames, passwords, etc.  If it's in parenthesis, that means you need to supply that information.   Don't actually use the parenthesis, and don't call your datasource datasource-name.  Just being sure.
+The configurations above do not contain literal names, usernames, passwords, etc.  If it's in parenthesis, that means you need to supply that information.   Don't actually use the parenthesis, and don't call your datasource 'datasource-name.'
 
 You don't know how many times I get that. I've gotten calls over "click the return key" and people thinking there was some other mouse that they didn't own with a button called Return Key.
 `
