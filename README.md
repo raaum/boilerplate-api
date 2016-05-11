@@ -18,7 +18,7 @@ LoopBack comes with a built-in client called the LoopBack API Explorer, which ma
 
 ##Requirements
 
-Most importantly, you need to have Node installed on your machine, or whatever machine you choose to use as a web server.  It's free and it's easy to install to that's a no brainer. Get it here. npm comes with it, and you'll be needing that too.
+You'll need to have Node installed on your machine, first, before anything else.  It's free and it's easy to install to that's a no brainer. URL below. Note: npm comes with it, and you'll be needing that too.
 
 https://nodejs.org/en/
 
