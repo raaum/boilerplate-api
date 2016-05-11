@@ -71,7 +71,7 @@ $ slc loopback:status
 	    "name": "(your-datasource-name)",
 	    "connector": "mongodb",
 	    "host": "(your host, ex: localhost)",
-	    "port": (an port that your api can use, ex: 27771),
+	    "port": (any port that your api can use, ex: 27771),
 	    "database": "(your-database-name)",
 	    "username": "(your-username)",
 	    "password": "(your-password)"
