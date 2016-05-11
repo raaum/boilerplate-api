@@ -85,29 +85,29 @@ API Explorer allows you to select any of the exposed methods, and then see corre
 
 ##Detailed Test Instructions:
 
-1. In a separate window, start MongoDB with:
+- In a separate window, start MongoDB with:
 
     `$ mongod`
 
-2. Run the application with:
+- Run the application with:
 
     `$ node .`
 
-3. In your browser, go to: `http://localhost:3000/explorer/`
+- In your browser, go to: `http://localhost:3000/explorer/`
 
-4. You'll see an administrative page for the StrongLoop API Explorer, which is intuitive enought for novices to figure out.
+- You'll see an administrative page for the StrongLoop API Explorer, which is intuitive enought for novices to figure out.
 
-5. Select any of the exposed methods, and the corresponding model schema will be displayed in the bottom right corner.
+- Select any of the exposed methods, and the corresponding model schema will be displayed in the bottom right corner.
 
-6. In the data text area, it is possible to write a custom HTTP request.
+- In the data text area, it is possible to write a custom HTTP request.
 
-7. Once the request is filled in, click the “Try it out” button
+- Once the request is filled in, click the “Try it out” button
 
-7. See the server’s response displayed in the box below
+- See the server’s response displayed in the box below
 
-8. Edit your files within the skeleton of the application.
+- Edit your files within the skeleton of the application.
 
-9. Configure the Model (a good example shown)
+- Configure the Model (a good example shown)
 
 ````
 {
@@ -147,7 +147,7 @@ API Explorer allows you to select any of the exposed methods, and then see corre
 
 Open `server/model-config.json` and change the datasource for all entities we want to persist in the DB to "(datasource-name)".
 
-10.  Search Google for LoopBack and become a sponge for informaton about using the product, for about an hour.  It may not take you that long or it may take you longer.  Just go learn more.  You need to know your stuff.
+Search Google for LoopBack and become a sponge for informaton about using the product, for about an hour.  It may not take you that long or it may take you longer.  Just go learn more.  You need to know your stuff.
 
 ##Don't Be Dumb
 
