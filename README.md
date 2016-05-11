@@ -2,6 +2,8 @@
 
 Setup a boilerplate server-side API using Node, JavaScript, LoopBack (from the developers of Express and major contributor to the open source Node project), and a few other goodies.
 
+You'll have both a server and a client operating on the same machine, in most cases, but using different port numbers so you know which is which.  You can also install the backend on a completely separate box.
+
 ##About LoopBack and StrongLoop
 
 Boilerplate API uses LoopBack, an open source API framework built by San Mateo, California based company StrongLoop.  StrongLoop has been a very important contributor to the latest Node version and the Node community as a whole for quite some time.  StrongLoop are the current maintainers of the world's most popular and widely used Node framework for server-side development, Express.  Most developers use Express to serve pages, in lieu of Apache for example.
