@@ -118,27 +118,27 @@ API Explorer allows you to select any of the exposed methods, and then see corre
     "dataSource": "datasource-name",
     "public": false
   },
-  "ACL": {
+  "(SomeObject)": {
     "dataSource": "datasource-name",
     "public": false
   },
-  "RoleMapping": {
+  "(SomeObject)": {
     "dataSource": "datasource-name",
     "public": false
   },
-  "Role": {
+  "(SomeObject)": {
     "dataSource": "datasource-name",
     "public": false
   },
-  "Gift": {
+  "(SomeObject)": {
     "dataSource": "datasource-name",
     "public": true
   },
-  "Donor": {
+  "(SomeObject)": {
     "dataSource": "datasource-name",
     "public": true
   },
-  "Receiver": {
+  "(SomeObject)": {
     "dataSource": "datasource-name",
     "public": true
   }
